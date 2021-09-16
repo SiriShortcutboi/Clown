@@ -5,7 +5,7 @@
 
 price = 2.99
 # makes the entire string 100 characters long subsituting 100 spaces for however many minus the amunt that atualy characters take up
-txt = str.format("{1} only {0:^100d}$",price,"for")
+txt = str.format("{1} only {0:^100D}$",price,"for")
 #formats 0123 going from the first commas doing one variable per comma 
 txt = str.format("{1} only {1}{0}$",price,"for")
 #formats price as a float within the strign
@@ -14,6 +14,9 @@ txt = "for only " +float(price)+"$"
 print(type(price))
 #prints txt
 print(txt)
+vartrue = True
+print(type(vartrue))
+# the / will divide, but // will divide and leave it as an integer
 
 
 #text variables 
