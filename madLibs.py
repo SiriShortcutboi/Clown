@@ -10,7 +10,7 @@ txt = str.format("{1} only {0:^100D}$",price,"for")
 txt = str.format("{1} only {1}{0}$",price,"for")
 #formats price as a float within the strign
 txt = "for only " +float(price)+"$"
-#prints the data type that price is
+#prints the data type that price is 
 print(type(price))
 #prints txt
 print(txt)
