@@ -36,7 +36,7 @@ buyers_name = input("enter name of buyer:")
 new = current_year-car_year < 1
 
 if not new:
-   int repair-fee = 500
+   int repair_fee = 500
 
 total-fees = repair_fee+reg_fee+restock_fee+insp_fee+cleaning_fee+ext_warr+((sale_price*gap_insu)
 total_tax = (sale_price*prop_tax)
