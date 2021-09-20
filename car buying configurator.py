@@ -10,8 +10,8 @@ int current_year 2021
 float sales_tax = 0.854
 int prop_tax = .058
 int restock_fee = 1200
-int insp-fee = 380
-int cleaning-fee = 200
+int insp_fee = 380
+int cleaning_fee = 200
 int ext_warr = 2000
 float gap_insu = .010
 
@@ -24,7 +24,7 @@ int car_year = input("enter the year of the Car:")
 int current_year = input("enter the current year:")
 
 if current_year-car_year < 3:
-    int reg-fee = 150
+    int reg_fees = 150
 elif current_year-car_year <= 6:
         int reg_fees = 110
 else:
@@ -36,7 +36,7 @@ buyers_name = input("enter name of buyer:")
 new = current_year-car_year < 1
 
 if not new:
-   int repair-fee = 500
+   int repair_fee = 500
 
 total-fees = repair_fee+reg_fee+restock_fee+insp_fee+cleaning_fee+ext_warr+((sale_price*gap_insu)
 total_tax = (sale_price*prop_tax)
