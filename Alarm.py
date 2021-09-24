@@ -1,6 +1,8 @@
-while True:
-    gmtimenow(MST,DLS)
-littlesleep = time.sleep(0.3)
+import time
+import winsound
+
+
+littlesleep = time.sleep(1)
 soundlowD = winsound.Beep(77,500)
 soundlowA = winsound.Beep(116,500)
 soundhighlowA = winsound.Beep(233,500)
@@ -16,3 +18,8 @@ def funny():
     soundlowD
     soundlowD
     soundlowA
+    soundhighlowA
+    soundlowD
+    littlesleep
+    soundlowD
+    soundlowD
