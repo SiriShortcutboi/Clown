@@ -9,7 +9,7 @@ if (blueMoon == "Yes") or (blueMoon == "yes"):
     print("Once in a Blue Moon")
 else:
     #get the day of the week
-    weekDay = input("What is the day of the week (Sunday - Saturday)?")
+    weekDay = input("What is the day of the week (Sunday - Saturday)? ")
     #get the day of the month, specifically an int
     monthDay = int(input("What is the day of the month (1 - 31)?"))
     #make sure the day of the month is less than 7
